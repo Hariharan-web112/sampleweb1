@@ -1,0 +1,290 @@
+.headercss {
+    margin-bottom: -3px;
+    padding: 7px;
+    background: rgb(0, 48, 97);
+    color: white;
+    font-size: 14px;
+}
+
+.lo {
+    margin-left: 5em;
+}
+
+.aoc{
+    float: right;
+    margin-right: 5em;
+}
+
+@media only screen and (max-width : 320px) {
+ .aoc{
+    margin-left: 20px;
+    float: unset !important;
+    margin-right: unset !important;
+ }   
+ .lo {
+    margin-left: 41px;
+ }
+
+ .headerbox-inner {
+    margin-left: 35px;
+    padding: 5px;
+ }
+
+ .sibiinfotext {
+    margin-top: 23px !important;
+    margin-left: 13px !important;
+    width: 91% !important;
+ }
+
+ .mini-cart-title {
+    margin-left: 4em !important;
+    padding-top: 21px;
+}
+
+
+.offerimg {
+    width: 265px;
+}
+
+.imgslide1 {
+    padding-right: 15px !important;
+}
+
+.sibimaincombo ::before {
+    position: unset !important;
+    content: unset !important;
+    top: unset !important;
+    left: unset !important;
+    width: unset !important;
+    border-top: unset !important;
+}
+
+.footerimg {
+    width: 321px;
+    height: 30px;
+}
+
+.footer-bottom {
+    margin-left: 23px !important;
+}
+
+} /* meadia query end */
+
+.sibicombolist {
+    width: 265px;
+    margin-right: 7px;
+    margin-left: 5px;
+}
+
+.footerinner {
+    font-size: 13px;
+    font-size: 14px;
+    margin-left: 8px;
+    margin-top: 13px;
+}
+
+.headerphoneimg > ::before {
+    content: "\f098";
+    margin-right: 5px;
+    float: left;
+    font-family: FontAwesome;
+    font-size: 36px;
+    color: #c0c5ce;
+    line-height: 31px;
+    text-align: center;
+    margin-top: 3px;
+}
+
+.headergeneimg > ::before {
+    content: "\f0a3";
+    float: left;
+    font-family: FontAwesome;
+    font-size: 36px;
+    line-height: 31px;
+    color: #c0c5ce;
+    text-align: center;
+    margin-top: 3px;
+}
+
+.headervanimg > ::before {
+    content: "\f0d1";
+    float: left;
+    font-family: FontAwesome;
+    font-size: 36px;
+    line-height: 31px;
+    color: #c0c5ce;
+    margin-right: 3px;
+    text-align: center;
+    margin-top: 3px;
+}
+
+.headerheadimg > ::before {
+    content: "\f025";
+    float: left;
+    font-family: FontAwesome;
+    font-size: 36px;
+    color: #c0c5ce;
+    margin-right: 4px;
+    line-height: 31px;
+    text-align: center;
+    margin-top: 3px;
+}
+
+.sibiimg-block-inner {
+    width: 263px;
+    border: 1px solid #ded4d4;
+}
+
+.text-block {
+    padding-top: 11px;
+}
+
+
+.ratingmain {
+    color: rgb(255, 255, 255);
+    display: table;
+    width: 37%;
+    margin: 5px 0px 17px;
+    margin-left: 7em;
+}
+
+.product-price-inner {
+    color: rgb(137, 137, 137);
+    font-weight: 400;
+    margin-right: 5px;
+    text-decoration: line-through;
+}
+
+.product-price-inner2 {
+    font-size: 20px;
+    color: rgb(255, 0, 48);
+    font-weight: 700;
+    line-height: 20px;
+    display: inline-block;
+    margin: 0px;
+}
+
+.product-price {
+    margin-left: 2em;
+}
+
+.ratingbox {
+    position: relative;
+    display: inline-block;
+    width: 80px;
+    height: 13px;
+    vertical-align: middle;
+    background: url(../assets/color-stars.png) 0px top repeat-x scroll transparent;
+    margin: 0px auto;
+}
+
+.product-title {
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(47, 47, 47) !important;
+    text-align: -webkit-center;
+}
+
+.product-inner> :hover {
+    border: 1px solid #ded4d4;
+    /* border-bottom: unset; */
+}
+
+
+/* .product-inner .product-item .sibiimg-block .sibiimg-block-inner :hover {
+    border-bottom: unset;
+} */
+
+.sibiinfo {
+    padding: 25px 0px;
+}
+
+.sibimaincombo ::before {
+    position: absolute;
+    content: "";
+    top: 954px;
+    left: 411px;
+    width: 61%;
+    border-top: 8px double rgb(235, 235, 235);
+}
+
+.sibititle {
+    color: rgb(0, 48, 97);
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.imgslide1 {
+    padding-right: 0px;
+}
+
+.bg-dark {
+    background: rgb(108, 185, 0) !important;
+}
+
+.sibinavbar{
+    border-radius: 4px;
+    z-index: 1;
+}
+
+.footer-bottom {
+    margin-left: 96px;
+    margin-bottom: 0 !important;
+    margin-top: 11px;
+    color: #dedede;
+}
+
+.footerrow {
+    background-color: #353434;
+    width: 101%;
+ }
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    font-weight: 700;
+}
+
+.nav-item {
+    margin-right: 9px;
+    margin-left: 20px;
+}
+
+.sibiinfotext {
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(192, 197, 206);
+    border-image: initial;
+    width: 30%;
+    border-radius: 3px;
+}
+
+.mini-cart-title {
+    margin-left: 14em;
+}
+   
+.headercon {
+    background: rgb(248, 248, 248);
+    padding: 8px 0px;
+    border-bottom: 1px solid rgb(229, 229, 229);
+}
+
+.headerbox-inner1 {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #ff0030;
+    font-size: 17px;
+    margin: 0;
+    line-height: 20px;
+    font-family: 'Tinos', serif, sans-serif;
+}
+
+.headerbox-inner2 { 
+    margin: 0;
+    line-height: 20px;
+    font-size: 13px;
+    color: #898989;
+}
+    
+/* @media only screen and (min-width : 768px) and (max-width : 1024px) {
+    
+} */
